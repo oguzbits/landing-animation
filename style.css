@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #303a52;
+}
+
+svg {
+  width: 500px;
+  align-self: center;
+  justify-self: center;
+  margin: 0 0 0 600px;
+}
+
+svg #shop_1_ {
+  animation-name: landingAnim;
+  animation-duration: 2s;
+}
+svg #chat_1_ {
+  animation-name: landingAnim2;
+  animation-duration: 3s;
+  /* animation-delay: 3s; */
+}
+svg #security_1_ {
+  animation-name: landingAnim3;
+  animation-duration: 4s;
+  /* animation-delay: 6s; */
+}
+svg #cloud_1_ {
+  animation-name: landingAnim4;
+  animation-duration: 5s;
+  /* animation-delay: 9s; */
+}
+
+@keyframes landingAnim {
+  from {
+    transform: translateX(0px) translateY(-40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes landingAnim2 {
+  from {
+    transform: translateX(0px) translateY(-80px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes landingAnim3 {
+  from {
+    transform: translateX(0px) translateY(-120px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes landingAnim4 {
+  from {
+    transform: translateX(0px) translateY(-160px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
